@@ -1,0 +1,19 @@
+.login {
+    position: fixed;
+    top: 35%;
+    left: 30%;
+    width: 800px;
+    height:200px;
+    background: #f0f0f0;
+    box-shadow: 6px 3px 3px rgb(80, 79, 79);  
+    
+}
+
+.loginbutton {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    height: 100px;
+    width: 500px;
+    font-size: 50px;
+}

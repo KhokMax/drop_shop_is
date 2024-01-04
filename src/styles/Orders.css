@@ -1,0 +1,83 @@
+.wrapper_6{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Orderscard {
+    margin-top: 100px;
+    width: 850px;
+    height: auto;
+    background-color: rgb(198, 198, 198);
+}
+
+.Orders{
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.OrdersOrderfield{
+    height: auto;
+    width: auto;
+    white-space: normal;
+}
+
+.Orderstext{
+    margin-left: 5px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.Ordersposhtainput{
+    margin-left: 5px;
+    height: 23px;
+    width: 100%;
+}
+
+.Orderspaymethod{
+    margin-left: 5px;
+    height: 23px;
+    width: 20%;
+}
+
+.Ordersunitinput{
+    margin-left: 5px;
+    height: 23px;
+    width: 20%;
+}
+
+.Ordersproductbutton{
+    height: 20px;
+    width: 120px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-weight:500;
+    border: 0px;
+    cursor: pointer;
+}
+
+#Ordersname{
+    padding-left: 58px;
+}
+
+#Ordersmail{
+    padding-left: 11px;
+}
+
+#Ordersadress{
+    padding-left: 7px;
+}
+
+#Ordersmethod{
+    padding-left: 34px;
+}
+
+#Ordersunits_{
+    padding-left: 79px;
+}

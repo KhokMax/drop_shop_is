@@ -1,0 +1,83 @@
+.wrapper_5{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.MyOrdercard {
+    margin-top: 100px;
+    width: 850px;
+    height: auto;
+    background-color: rgb(198, 198, 198);
+}
+
+.MyOrder{
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    padding-top: 25px;
+}
+
+.MyOrderfield{
+    height: auto;
+    width: auto;
+    white-space: normal;
+}
+
+.MyOrdertext{
+    margin-left: 5px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.Myposhtainput{
+    margin-left: 5px;
+    height: 23px;
+    width: 100%;
+}
+
+.Mypaymethod{
+    margin-left: 5px;
+    height: 23px;
+    width: 20%;
+}
+
+.Myunitinput{
+    margin-left: 5px;
+    height: 23px;
+    width: 20%;
+}
+
+.MyORDERproductbutton{
+    height: 20px;
+    width: 120px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-weight:500;
+    border: 0px;
+    cursor: pointer;
+}
+
+#Myname{
+    padding-left: 58px;
+}
+
+#Mymail{
+    padding-left: 11px;
+}
+
+#Myadress{
+    padding-left: 7px;
+}
+
+#Mymethod{
+    padding-left: 34px;
+}
+
+#Myunits_{
+    padding-left: 79px;
+}

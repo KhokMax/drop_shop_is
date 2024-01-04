@@ -1,0 +1,161 @@
+.wrapper_3{
+    white-space: nowrap;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+
+
+.MainPageproductcard{
+    margin-top: 100px;
+    width: 1000px;
+    height: auto;
+    background-color: rgb(198, 198, 198);
+}
+
+.MainPagegridpart{
+    white-space: nowrap;
+    padding-top: auto;
+    display: grid;
+    height: 100%;
+    padding: 10px 20px;
+    grid-template-columns: 32.5% 32.5% 32.5%;
+    gap: 10px;
+    height: auto;
+}
+
+.MainPagephotoPrice{
+    min-width: 310px;
+    height:100%;
+    white-space: pre-line;
+}
+
+
+.MainPagecharacteristics{
+    min-width: 310px;
+    height:395px;
+    width: auto;
+    white-space: pre-line;
+}
+
+.MainPagedescription{
+    min-width: 310px;
+    height:395px;
+    width: auto;
+    white-space: pre-line;
+}
+
+.MainPagephohotofield{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative
+}
+
+.MainPagephoto{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 1
+}
+
+.MainPagecharacteristics p {
+    width: 97%;
+    height: 89.5%;
+    margin-left: 1px;
+    margin-top: 10px;
+    resize:none;
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
+
+.MainPagedescription p {
+    width: 97%;
+    height: 89.5%;
+    margin-left: 1px;
+    margin-top: 10px;
+    resize:none;
+    background-color: #ffffff;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
+
+
+.orderproductbutton{
+    height: 20px;
+    width: 145px;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    font-weight:500;
+    border: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.MainPagenametext{
+    margin-left: 5px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
+.MainPagename{
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    height: auto;
+}
+
+.MainPagenamefield{
+    height: auto;
+    width: auto;
+    white-space: normal;
+}
+
+.MainPageprice{
+    display: flex;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+
+.MainPagepricetext{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+@media (max-width: 1000px) {
+    .MainPagegridpart {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .MainPageproductcard{
+        min-height: 1000px;
+        margin: 12% 5% 5% 5%;
+    }
+}
+
+@media (max-width: 800px) {
+    .MainPagegridpart {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .MainPageproductcard{
+        margin: 20% 5% 5% 5%;
+    }
+}
